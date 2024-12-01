@@ -1,0 +1,28 @@
+6. <!DOCTYPE html>
+7. <html lang="en">
+8. <head>
+    9.     <meta charset="UTF-8">
+    10.     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    11.     <title>Chatbot Interface</title>
+    12. </head>
+13. <body>
+14.     <h1>Chatbot for Repository, Database, and Documents</h1>
+15.
+16.     <form method="POST" action="/" enctype="multipart/form-data">
+    17.         <label for="context">Choose Context:</label>
+    18.         <select name="context" id="context">
+    19.             <option value="repository">Repository</option>
+    20.             <option value="database">Database</option>
+    21.             <option value="documents">Documents</option>
+    22.         </select>
+    23.
+    24.         <label for="user_input">Your Query:</label>
+    25.         <input type="text" name="user_input" id="user_input">
+    26.
+    27.         <label for="file">Upload File (for Documents):</label>
+    28.         <input type="file" name="file" id="file">
+    29.
+    30.         <button type="submit">Submit</button>
+    31.     </form>
+32. </body>
+33. </html>
